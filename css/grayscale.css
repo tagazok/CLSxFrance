@@ -267,6 +267,18 @@ a:focus {
   color: black;
   background-color: #42DCA3;
 }
+.btn-white {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+.btn-white:hover,
+.btn-white:focus {
+  border: 1px solid #42DCA3;
+  outline: none;
+  color: black;
+  background-color: #42DCA3;
+}
 ul.banner-social-buttons {
   margin-top: 0;
 }
@@ -312,4 +324,16 @@ body {
 }
 .bg-primary {
   background-color: #18BC9C;
+}
+/* Map */
+.map {
+  height: 500px;
+}
+@media (max-width: 768px) {
+  .map {
+    height: 75%;
+  }
+}
+.map iframe {
+  pointer-events: none;
 }
