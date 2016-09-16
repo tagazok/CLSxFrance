@@ -394,3 +394,63 @@ body {
 .sponsor {
     max-width: 80%;
 }
+
+.agenda {
+    .session {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: solid 1px #18af91;
+
+        .time {
+                padding-right: 30px;
+        }
+        .infos {    
+            text-align: left;
+            flex: 1;
+
+            .session-title {
+                // font-weight: bold;
+            }
+
+            .session-description {
+                flex: 1;
+                text-align: justify;
+                padding-top: 15px;
+                padding-right: 30px;
+            }    
+
+            
+            .session-details {
+                display: flex;
+                padding-top: 15px;
+            }   
+        }
+    }
+    .speaker-details {
+            text-align: center;
+            display: flex;
+            padding-top: 15px;
+
+            .avatar {
+                width: 50px;
+
+                .round-avatar {
+                    border: solid 3px #fff;
+                    border-radius: 50%;
+                    max-width: 100%;
+                }
+            }
+            .speaker-infos {
+                padding-left: 15px;
+                text-align: left;
+                flex: 1;
+
+                .speaker-name {
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+            }
+        }
+}

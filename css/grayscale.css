@@ -343,3 +343,49 @@ body {
 .sponsor {
   max-width: 80%;
 }
+.agenda .session {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: solid 1px #18af91;
+}
+.agenda .session .time {
+  padding-right: 30px;
+}
+.agenda .session .infos {
+  text-align: left;
+  flex: 1;
+}
+.agenda .session .infos .session-description {
+  flex: 1;
+  text-align: justify;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+.agenda .session .infos .session-details {
+  display: flex;
+  padding-top: 15px;
+}
+.agenda .speaker-details {
+  text-align: center;
+  display: flex;
+  padding-top: 15px;
+}
+.agenda .speaker-details .avatar {
+  width: 50px;
+}
+.agenda .speaker-details .avatar .round-avatar {
+  border: solid 3px #fff;
+  border-radius: 50%;
+  max-width: 100%;
+}
+.agenda .speaker-details .speaker-infos {
+  padding-left: 15px;
+  text-align: left;
+  flex: 1;
+}
+.agenda .speaker-details .speaker-infos .speaker-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
