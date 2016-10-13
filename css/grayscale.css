@@ -371,6 +371,14 @@ body {
   display: flex;
   padding-top: 15px;
 }
+.agenda .session .infos .session-links {
+  padding-right: 30px;
+  text-align: right;
+}
+.agenda .session .infos .session-links a,
+.agenda .session .infos .session-links a:visited {
+  color: #00ffa1;
+}
 .agenda .speaker-details {
   text-align: center;
   display: flex;
@@ -392,4 +400,7 @@ body {
 .agenda .speaker-details .speaker-infos .speaker-name {
   font-weight: bold;
   text-transform: uppercase;
+}
+.embed-responsive {
+  margin-bottom: 15px;
 }
